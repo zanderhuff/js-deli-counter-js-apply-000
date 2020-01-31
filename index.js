@@ -9,23 +9,22 @@ function nowServing(katzDeliLine) {
   } 
   else {
     let i = 0;
-    while (i <= katzDeliLine.length) {
+    while (i < katzDeliLine.length) {
       i++
     }
     return `Currently serving ${katzDeliLine.shift()}.`;
   }
 }
 
-var line = [];
 function currentLine(katzDeliLine) {
   if (katzDeliLine.length === 0){
     return "The line is currently empty."
   }
   else {
     let i = 0;
-    while (i <= katzDeliLine.length) {
+    while (i < katzDeliLine.length) {
       i++
     }
-  return (`The line is currently ${}. ${}, ${}. ${}`)
+  return (`The line is currently ${katzDeliLine}.`)
   }
 }
