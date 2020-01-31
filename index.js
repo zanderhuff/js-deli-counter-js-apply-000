@@ -7,12 +7,11 @@ function nowServing(katzDeliLine) {
   if (katzDeliLine === 0){
     return "There is nobody waiting to be served!"
   } else {
-    for (var x = 0; x < katzDeliLine.length; x++){
-      push.array(katzDeliLine[x])
-      return array;
-      remove.array(katzDeliLine[x])
+    let i = 0;
+    while (i < katzDeliLine.length) {
+      i++
     }
-    return array;
+    return katzDeliLine.shift()
   }
 }
 
