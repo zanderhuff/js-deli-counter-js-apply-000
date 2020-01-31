@@ -9,7 +9,7 @@ function nowServing(katzDeliLine) {
   } 
   else {
     let i = 0;
-    while (i < katzDeliLine.length) {
+    while (i <= katzDeliLine.length) {
       i++
     }
     return `Currently serving ${katzDeliLine.shift()}.`;
