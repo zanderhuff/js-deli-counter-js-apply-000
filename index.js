@@ -13,6 +13,12 @@ function nowServing(katzDeliLine) {
     return array;
   } else {
     return "There is nobody waiting to be served!"
+    for (var i = 0; i < katzDeliLine.length; i++){
+      push.array(katzDeliLine[i])
+      return array;
+      remove.array(katzDeliLine[i])
+    }
+    return array;
   }
 }
 
