@@ -5,18 +5,12 @@ function takeANumber(katzDeliLine, name) {
 
 function nowServing(katzDeliLine) {
   if (x === 0){
-    for (var i = 0; i < katzDeliLine.length; i++){
-      push.array(katzDeliLine[i])
-      return array;
-      remove.array(katzDeliLine[i])
-    }
-    return array;
-  } else {
     return "There is nobody waiting to be served!"
-    for (var i = 0; i < katzDeliLine.length; i++){
-      push.array(katzDeliLine[i])
+  } else {
+    for (var x = 0; x < katzDeliLine.length; x++){
+      push.array(katzDeliLine[x])
       return array;
-      remove.array(katzDeliLine[i])
+      remove.array(katzDeliLine[x])
     }
     return array;
   }
